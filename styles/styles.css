@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background: #FFB30D;
+    display: flex;
+    font-size: 0.85rem;
+    font-family: Plus Jakarta Sans;
+    font-weight: 700;
+    height: 104px;
+   align-items: center;
+}
+.logo {
+    flex: 1.5;
+    display: inline;
+    color: #001542;
+    text-transform: uppercase;
+    margin-left: 3rem;
+    margin-top: 1.5rem;
+}
+.navlinks {
+    flex: 2;
+    display: flex;
+    color: #001542;
+    justify-content: space-between;
+    margin-left: 300px;
+    margin-right: 50px;
+}
+a {
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-family: Plus Jakarta Sans;
+    font-weight: 700;
+    color: #001542;
+}
+a:hover {
+    color:#F7F7F7;
+}
+
+hr {
+    border-style: none;
+    border-width: 12px;
+    border-top-style: solid;
+    margin-top: 0;
+}
+.text {
+    position: absolute;
+    left: 15rem;
+    top: 20rem;
+    height: 30rem;
+    width: 40rem;
+    font-size: 2.5rem;
+    font-family: Plus Jakarta Sans;
+    
+}
+#trad {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    font-style: italic;
+}
+.main-text {
+    margin: 0;
+}
+#i3 {
+    position: absolute;
+    right: 0;
+    top: 20%;
+    mix-blend-mode: multiply;
+}
+#i2 {
+    position: absolute;
+    right: 550px;
+    top: 25%;
+    mix-blend-mode: multiply;
+}
+#i1 {
+    position: absolute;
+    right: 1000px;
+    top: 40%;
+    mix-blend-mode: multiply;
+}
+.btn {
+    position: absolute;
+    border: 2px solid #001542;
+    background: #F7F7F7;
+    width: 315px;
+    height: 78px;
+    top: 47rem;
+    left: 10rem;
+    color: #001542;
+    font-size: 24px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 700;
+    letter-spacing: 1.68px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 0.5rem 0.5rem black ;
+  }
+  #left {
+    position: absolute;
+    left: 35rem;
+    background: #FFB30D;
+  }
+  
+  .btn:hover {
+    background: #FFB30D;
+    text-decoration: none;
+  }
+  #left:hover {
+    background: #F7F7F7;
+    text-decoration: none;
+  }
